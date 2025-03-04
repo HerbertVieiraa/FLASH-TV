@@ -3,13 +3,100 @@
     padding: 0px;
     box-sizing: border-box;
 }
-       
+    
 
 body{
     font-family: 'Poppins',sans-serif;
     background: #0a0a0a; 
     color: #ffffff; 
 }
+
+.top-bar{
+    background: #acabaa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top-bar p{
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    animation: slide-in 1s ease-in-out;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+    
+}
+
+
+header{
+    background: #ff6600;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo{
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+    align-items: end;
+}
+
+menu{
+    background: #ff6600;
+    padding: 10px 0;
+    text-align: right;
+}
+
+menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+menu ul li{
+    display: inline-block;  
+    margin: 0 10px;
+}
+
+menu ul li a{   
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav{
+    background: #ff6600;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
 
 h2.text-center{
     margin-top: 15px;
